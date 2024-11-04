@@ -8,7 +8,7 @@ function MainNav() {
   const carts = useEcomStore((s) => s.carts);
   console.log(carts.length);
   return (
-    <nav className="bg-green-300">
+    <nav className="bg-blue-300">
       <div className="mx-auto px-4">
         <div className="flex justify-between h-16">
           <div className="flex items-center gap-6">
