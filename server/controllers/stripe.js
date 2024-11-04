@@ -1,6 +1,6 @@
 const prisma = require("../config/prisma");
 const stripe = require("stripe")(
-  ""
+  "12345"
 );
 
 exports.payment = async (req, res) => {
