@@ -1,7 +1,5 @@
 const prisma = require("../config/prisma");
-const stripe = require("stripe")(
-  ""
-);
+const stripe = require("stripe")("1234");
 
 exports.payment = async (req, res) => {
   try {
